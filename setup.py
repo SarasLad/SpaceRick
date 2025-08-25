@@ -20,10 +20,11 @@ setup(
     description="A modular web vulnerability scanner CLI tool",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/webscanner",
+    url="https://github.com/SarasLad/SpaceRick",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.8",
 )
+
