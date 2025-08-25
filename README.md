@@ -27,7 +27,7 @@ cd webscanner
 pip install -e .
 ```
 
-##Usage
+## Usage
 
   base: |
     spacerick <target> [options]
@@ -45,7 +45,7 @@ pip install -e .
     - flag: "--dns"
       description: "Run DNS & WHOIS lookup"
 
-##Features 
+## Features 
   - Detect Cross-Site Scripting (XSS) vulnerabilities
   - Scan for SQL Injection flaws
   - Perform directory bruteforce to find hidden paths
@@ -53,5 +53,5 @@ pip install -e .
   - Run DNS & WHOIS lookups
   - Modular design for easy feature expansion
 
-##License
+## License
   MIT License © 2025 Saras Lad
