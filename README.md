@@ -25,8 +25,10 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/webscanner.git
 cd webscanner
 pip install -e .
+```
 
-usage:
+##Usage
+
   base: |
     spacerick <target> [options]
   example: |
@@ -43,7 +45,7 @@ usage:
     - flag: "--dns"
       description: "Run DNS & WHOIS lookup"
 
-features: |
+##Features 
   - Detect Cross-Site Scripting (XSS) vulnerabilities
   - Scan for SQL Injection flaws
   - Perform directory bruteforce to find hidden paths
@@ -51,5 +53,5 @@ features: |
   - Run DNS & WHOIS lookups
   - Modular design for easy feature expansion
 
-license: |
+##License
   MIT License © 2025 Saras Lad
