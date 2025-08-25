@@ -25,3 +25,31 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/webscanner.git
 cd webscanner
 pip install -e .
+
+usage:
+  base: |
+    spacerick <target> [options]
+  example: |
+    spacerick https://example.com --xss --sqli --dns
+  options:
+    - flag: "--xss"
+      description: "Run XSS scan"
+    - flag: "--sqli"
+      description: "Run SQL Injection scan"
+    - flag: "--bruteforce"
+      description: "Run directory bruteforce"
+    - flag: "--cert"
+      description: "Get SSL/TLS certificate info"
+    - flag: "--dns"
+      description: "Run DNS & WHOIS lookup"
+
+features: |
+  - Detect Cross-Site Scripting (XSS) vulnerabilities
+  - Scan for SQL Injection flaws
+  - Perform directory bruteforce to find hidden paths
+  - Retrieve SSL/TLS certificate details
+  - Run DNS & WHOIS lookups
+  - Modular design for easy feature expansion
+
+license: |
+  MIT License © 2025 Saras Lad
