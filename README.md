@@ -29,6 +29,7 @@ pip install -e .
 
 ## Usage
 
+```bash
   base: |
     spacerick <target> [options]
   example: |
@@ -44,6 +45,7 @@ pip install -e .
       description: "Get SSL/TLS certificate info"
     - flag: "--dns"
       description: "Run DNS & WHOIS lookup"
+```
 
 ## Features 
   - Detect Cross-Site Scripting (XSS) vulnerabilities
