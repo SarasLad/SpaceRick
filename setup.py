@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="SpaceRick",
     version="0.1.0",
-    license="MIT"
+    license="MIT",
     packages=find_packages(),
     install_requires=[
         "requests",
@@ -28,6 +28,7 @@ setup(
     ],
     python_requires=">=3.8",
 )
+
 
 
 
