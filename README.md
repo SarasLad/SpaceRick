@@ -22,7 +22,7 @@ SpaceRick helps penetration testers and bug bounty hunters quickly identify comm
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/webscanner.git
+git clone https://github.com/SarasLad/SpaceRick.git
 cd webscanner
 pip install -e .
 ```
