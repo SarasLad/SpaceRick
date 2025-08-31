@@ -1,4 +1,4 @@
-ckfrom setuptools import setup, find_packages
+from setuptools import setup, find_packages
 
 setup(
     name="SpaceRick",
@@ -28,6 +28,7 @@ setup(
     ],
     python_requires=">=3.8",
 )
+
 
 
 
