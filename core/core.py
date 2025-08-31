@@ -9,6 +9,15 @@ from scanner import bruteforce
 from scanner import cert_info
 from scanner import dns_whois
 
+def main():
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: spacerick <target> [--xss|--sqli|...]")
+        sys.exit(1)
+
+    target = sys.argv[1]
+    print(f"[+] Running SpaceRick scan on {target}")
+
 def scan_ports(host, ports=None):
     if ports is None:
         ports = [21, 22, 80, 443, 3306]
@@ -71,3 +80,4 @@ def run_dns_whois(url):
     print("[*] Running DNS and WHOIS Lookup...")
     dns_whois.dns_lookup(url)
     dns_whois.whois_lookup(url)
+
