@@ -23,7 +23,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/SarasLad/SpaceRick.git
-cd webscanner
+cd spacerick
 pip install -e .
 ```
 
