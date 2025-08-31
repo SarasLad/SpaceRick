@@ -1,7 +1,7 @@
 import argparse
 import pyfiglet
 from rich.console import Console
-from scanner import core
+import core
 
 console = Console()
 
@@ -40,3 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
