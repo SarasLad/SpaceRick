@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+ckfrom setuptools import setup, find_packages
 
 setup(
     name="SpaceRick",
@@ -14,7 +14,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "webscanner=core.main:main",
+            "spacerick=core.main:main",
         ],
     },
     author="Saras Lad",
@@ -28,5 +28,6 @@ setup(
     ],
     python_requires=">=3.8",
 )
+
 
 
