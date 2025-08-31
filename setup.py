@@ -1,3 +1,6 @@
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+    
 from setuptools import setup, find_packages
 
 setup(
@@ -19,7 +22,7 @@ setup(
     },
     author="Saras Lad",
     description="A modular web vulnerability scanner CLI tool",
-    long_description=open("README.md").read(),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/SarasLad/SpaceRick",
     classifiers=[
@@ -28,6 +31,7 @@ setup(
     ],
     python_requires=">=3.8",
 )
+
 
 
 
